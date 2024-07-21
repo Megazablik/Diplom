@@ -2,10 +2,9 @@
 import sendor_stand_request
 import data
 
-# Автотест 1
-
+# Создание заказа
 def test_order_creation_and_retrieval():
-    #Создание заказа
+
     response = sendor_stand_request.create_order(data.order_body)
     track_id = response.json()["track"]
     print("Заказ создан. Номер ID:", track_id)
