@@ -1,3 +1,7 @@
+headers = {
+    "Content-Type": "application/json"
+}
+
 order_body = {
         "firstName": "Naruto",
         "lastName": "Uchiha",
